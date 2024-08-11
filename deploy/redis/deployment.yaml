@@ -18,7 +18,7 @@ spec:
         app: redis
     spec:
       containers:
-      - image: armdocker.rnd.ericsson.se/dockerhub-ericsson-remote/redis:alpine
+      - image: redis:alpine
         name: redis
         resources: {}
 status: {}
